@@ -50,7 +50,6 @@ body {
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
-  content: url(/images/logo-final.jpg);
   height: 150px;
   border: 1px solid #dddddd;
 }
