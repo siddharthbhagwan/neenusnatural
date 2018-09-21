@@ -11,22 +11,32 @@ body {
   max-height: 100%;
   border: 1px solid #dddddd;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
   padding: 20px 10px;
-  display: table;
 }
 
 .tag {
-  font-size: 17px;
+  font-size: 20px;
   text-align: center;
+  margin: 10px;
+  line-height: 1.25;
+}
+
+.phone {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.container {
+  background-color: #fafafa;
 }
 
 .headingText {
-  display: table-cell;
   vertical-align: middle;
   text-align: center;
   width: 100%;
@@ -52,6 +62,9 @@ body {
   font-weight: bold;
   height: 150px;
   border: 1px solid #dddddd;
+  text-align: center;
+  display: block;
+  margin: auto;
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
